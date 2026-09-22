@@ -37,7 +37,7 @@ const Hero = forwardRef(function Hero(props, ref) {
             autoPlay
             muted
             loop
-            src="/public/hero-video/video.mp4"
+            src={`${import.meta.env.BASE_URL}hero-video/video.mp4`}
             className="w-full h-full object-cover  "
           ></video>
         </div>
