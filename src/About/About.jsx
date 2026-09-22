@@ -8,21 +8,21 @@ gsap.registerPlugin(ScrollTrigger);
 const firstCards = [
   {
     type: "image",
-    src: "/public/about-images/eid-small-.webp",
+    src: `${import.meta.env.BASE_URL}about-images/eid-small-.webp`,
   },
   {
     type: "image",
-    src: "/public/about-images/eid-small-.webp",
+    src: `${import.meta.env.BASE_URL}about-images/eid-small-.webp`,
   },
   {
     type: "image",
-    src: "/public/about-images/eid-small-.webp",
+    src: `${import.meta.env.BASE_URL}about-images/eid-small-.webp`,
   },
 ];
 const secondCards = [
   {
     type: "image",
-    src: "/public/about-images/eid-small-.webp",
+    src: `${import.meta.env.BASE_URL}about-images/eid-small-.webp`,
     className: "w-[20vw]",
   },
   {
@@ -32,34 +32,34 @@ const secondCards = [
   },
   {
     type: "image",
-    src: "/public/about-images/eid-small-.webp",
+    src: `${import.meta.env.BASE_URL}about-images/eid-small-.webp`,
     className: "w-[20vw]",
   },
   {
     type: "image",
-    src: "/public/about-images/eid-small-.webp",
+    src: `${import.meta.env.BASE_URL}about-images/eid-small-.webp`,
     className: "w-[20vw]",
   },
   {
     type: "image",
-    src: "/public/about-images/eid-small-.webp",
+    src: `${import.meta.env.BASE_URL}about-images/eid-small-.webp`,
     className: "w-[20vw]",
   },
 ];
 const thirdCards = [
   {
     type: "image",
-    src: "/public/about-images/eid-small-.webp",
+    src: `${import.meta.env.BASE_URL}about-images/eid-small-.webp`,
     className: "w-[20vw]",
   },
   {
     type: "image",
-    src: "/public/about-images/eid-small-.webp",
+    src: `${import.meta.env.BASE_URL}about-images/eid-small-.webp`,
     className: "w-[20vw]",
   },
   {
     type: "image",
-    src: "/public/about-images/eid-small-.webp",
+    src: `${import.meta.env.BASE_URL}about-images/eid-small-.webp`,
     className: "w-[20vw]",
   },
   {
@@ -69,14 +69,14 @@ const thirdCards = [
   },
   {
     type: "image",
-    src: "/public/about-images/eid-small-.webp",
+    src: `${import.meta.env.BASE_URL}about-images/eid-small-.webp`,
     className: "w-[20vw]",
   },
 ];
 const fourthCards = [
   {
     type: "image",
-    src: "/public/about-images/eid-small-.webp",
+    src: `${import.meta.env.BASE_URL}about-images/eid-small-.webp`,
     className: "w-[20vw]",
   },
   {
@@ -86,29 +86,29 @@ const fourthCards = [
   },
   {
     type: "image",
-    src: "/public/about-images/eid-small-.webp",
+    src: `${import.meta.env.BASE_URL}about-images/eid-small-.webp`,
     className: "w-[20vw]",
   },
   {
     type: "image",
-    src: "/public/about-images/eid-small-.webp",
+    src: `${import.meta.env.BASE_URL}about-images/eid-small-.webp`,
     className: "w-[20vw]",
   },
   {
     type: "image",
-    src: "/public/about-images/eid-small-.webp",
+    src: `${import.meta.env.BASE_URL}about-images/eid-small-.webp`,
     className: "w-[20vw]",
   },
 ];
 const fifthCards = [
   {
     type: "image",
-    src: "/public/about-images/eid-small-.webp",
+    src: `${import.meta.env.BASE_URL}about-images/eid-small-.webp`,
     className: "w-[20vw]",
   },
   {
     type: "image",
-    src: "/public/about-images/eid-small-.webp",
+    src: `${import.meta.env.BASE_URL}about-images/eid-small-.webp`,
     className: "w-[20vw]",
   },
   {
@@ -118,7 +118,7 @@ const fifthCards = [
   },
   {
     type: "image",
-    src: "/public/about-images/eid-small-.webp",
+    src: `${import.meta.env.BASE_URL}about-images/eid-small-.webp`,
     className: "w-[20vw]",
   },
 ];

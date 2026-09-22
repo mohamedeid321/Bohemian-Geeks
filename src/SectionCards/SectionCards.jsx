@@ -9,22 +9,34 @@ gsap.registerPlugin(ScrollTrigger);
 const bigCards = [
   {
     id: 1,
-    src: "/public/tilt-6-images/al-gioshy.jpg",
+    src: `${import.meta.env.BASE_URL}tilt-6-images/al-gioshy.jpg`,
     title: "Al Gioshy Steel",
   },
   {
     id: 2,
-    src: "/public/tilt-6-images/alrashid.jpg",
+    src: `${import.meta.env.BASE_URL}tilt-6-images/alrashid.jpg`,
     title: "Alrashid",
   },
   {
     id: 3,
-    src: "/public/tilt-6-images/Corridor-talks-Calendar.webp",
+    src: `${import.meta.env.BASE_URL}tilt-6-images/Corridor-talks-Calendar.webp`,
     title: "Corridor Talks",
   },
-  { id: 4, src: "/public/tilt-6-images/master-gold.jpg", title: "Master Gold" },
-  { id: 5, src: "/public/tilt-6-images/riot.jpg", title: "Riot" },
-  { id: 6, src: "/public/tilt-6-images/tireex.jpg", title: "Tireex" },
+  {
+    id: 4,
+    src: `${import.meta.env.BASE_URL}tilt-6-images/master-gold.jpg`,
+    title: "Master Gold",
+  },
+  {
+    id: 5,
+    src: `${import.meta.env.BASE_URL}tilt-6-images/riot.jpg`,
+    title: "Riot",
+  },
+  {
+    id: 6,
+    src: `${import.meta.env.BASE_URL}tilt-6-images/tireex.jpg`,
+    title: "Tireex",
+  },
 ];
 function SectionCards() {
   const contentCardsRef = useRef(null);

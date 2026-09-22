@@ -1,9 +1,9 @@
 import PanoramaSlider from "./PanoramaSlider.jsx";
 const objects = [
-  { src: "/public/3dCarosel/1.svg" },
-  { src: "/public/3dCarosel/2.svg" },
-  { src: "/public/3dCarosel/3.svg" },
-  { src: "/public/3dCarosel/4.svg" },
+  { src: `${import.meta.env.BASE_URL}3dCarosel/1.svg` },
+  { src: `${import.meta.env.BASE_URL}3dCarosel/2.svg` },
+  { src: `${import.meta.env.BASE_URL}3dCarosel/3.svg` },
+  { src: `${import.meta.env.BASE_URL}3dCarosel/4.svg` },
 ];
 function Tibs() {
   return (
