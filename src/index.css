@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@font-face {
+  font-family: "Restore";
+  src: url("./fonts/Restore-W00-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Dancing";
+  src: url("/public/fonts/DancingScript-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@theme {
+  --font-satisfy: "Satisfy", cursive;
+}
+@theme {
+  --color-pink: #e41b62;
+  --color-cream: #d8d9c2;
+  --color-black: #000000;
+  --color-bblack: #050505;
+}
+@utility mask-fade-x {
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 20%,
+    black 80%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 20%,
+    black 80%,
+    transparent 100%
+  );
+}
+@utility gradiant-black-bottom {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+}
+@utility text-stroke-thin {
+  -webkit-text-stroke: 1px var(--cream); /* أو أي لون تاني */
+}
+@utility preserve-3d {
+  transform-style: preserve-3d;
+}
+:root {
+  --black: #000000;
+  --cream: #d8d9c2;
+  --pink: #e41b62;
+}
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+html,
+body,
+#root {
+  background: #000;
+}
