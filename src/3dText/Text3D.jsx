@@ -124,8 +124,8 @@ function Text3D() {
         ref={TitleRef}
         className="absolute left-1/2 top-1/2 -translate-1/2 z-11 w-[31vw] pt-[2vh]"
       >
-        <img src="/public/logo/bgk-logo.png" alt="" />
-        <img src="/public/logo/bgk-5years.png" alt="" />
+        <img src={`${import.meta.env.BASE_URL}logo/bgk-logo.png`} alt="" />
+        <img src={`${import.meta.env.BASE_URL}logo/bgk-5years.png`} alt="" />
       </div>
       <div
         ref={contentRef}
