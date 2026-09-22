@@ -3,14 +3,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 @font-face {
   font-family: "Restore";
-  src: url("./fonts/Restore-W00-Heavy.ttf") format("truetype");
+  src: url("/fonts/Restore-W00-Heavy.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
   font-family: "Dancing";
-  src: url("/public/fonts/DancingScript-VariableFont_wght.ttf")
-    format("truetype");
+  src: url("/fonts/DancingScript-VariableFont_wght.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }

@@ -85,7 +85,7 @@ function Text3D() {
           opacity: 0,
           y: 50,
           stagger: 0.3,
-          duration: 1,
+          duration: 2,
           ease: "power3.out",
         },
         "-=0.5",
@@ -96,7 +96,7 @@ function Text3D() {
           opacity: 0,
           y: 50,
           stagger: 0.3,
-          duration: 1,
+          duration: 2,
           ease: "power3.out",
         },
         "-=0.5",
@@ -107,10 +107,11 @@ function Text3D() {
           opacity: 0,
           y: 50,
           stagger: 0.3,
-          duration: 1,
+          duration: 2,
+          delay: 1,
           ease: "power3.out",
         },
-        "-=1.5",
+        "-=1",
       );
     return () => {
       animation.kill();
@@ -134,7 +135,7 @@ function Text3D() {
           <div
             ref={item.topRef}
             key={index}
-            className={`text-pink w-full h-full absolute preserve-3d font-["Restore"] text-center   overflow-hidden 
+            className={`text-pink w-full h-full absolute preserve-3d font-["Restore"]  text-center   overflow-hidden 
                 ${item.className}`}
           >
             <span

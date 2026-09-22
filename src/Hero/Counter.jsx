@@ -11,7 +11,7 @@ function Counter({ target, suffix = "", className = "" }) {
 
     const anim = gsap.to(obj, {
       val: target,
-      duration: 2,
+      duration: 3,
       ease: "power2.out",
       scrollTrigger: {
         trigger: el,
